@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+body {
+  margin: 0px;
+  font-family: "Lato", sans-serif;
+  background: linear-gradient(to right, #fcfcfc, #e4dee3);
+}
+
+.app-title {
+  margin-top: 4rem;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.blockOne {
+  text-align: center;
+}
+label {
+  font-size: 2rem;
+  margin: 1rem 0 1rem;
+  display: block;
+}
+label input {
+  display: block;
+}
+
+#dob {
+  border: 1px;
+  width: 15rem;
+  border-radius: 1rem;
+  padding: 1rem;
+  background: #e99494;
+  /* background: linear-gradient(to right, #f1e1e8, #c8beb9); */
+}
+
+#lucky-num {
+  border: 1px;
+  width: 15rem;
+  border-radius: 1rem;
+  padding: 1rem;
+  background: #e99494;
+}
+
+.button-div {
+  border-radius: 1rem;
+  margin-top: 2rem;
+  text-align: center;
+  display: block;
+}
+button {
+  font-size: 1.2rem;
+  width: 12rem;
+  border-radius: 1rem;
+  padding: 0.5rem;
+}
+
+footer {
+  text-align: center;
+  display: block;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 2rem 0 0;
+  margin-top: 2rem;
+}
+
+#result {
+  text-align: center;
+  color: #082f49;
+}
+
+#error {
+  text-align: center;
+  color: red;
+}

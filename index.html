@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+    <div id="app">
+      <div class="app-title">
+        <h1>Is your Birthday Lucky?</h1>
+      </div>
+      <div class="blockOne">
+        <label for="dob">Date Birth:</label>
+        <input type="date" id="dob" />
+      </div>
+      <div class="blockOne">
+        <label for="dob">Lucky:</label>
+        <input type="number" min=0 id="lucky-num" />
+      </div>
+      <div class="button-div">
+        <button id="check-btn">Check number</button>
+        <button id="clear-btn" onclick="clearFields()">Clear</button>
+      </div>
+      <div class="result-div">
+        <h3 id="result"><h3>
+        <h3 id="error"></h3>
+      </div>
+      <footer>
+        <div class="footer">
+          <h3 class="privacy-note">Privacy notice!</h3>
+          <h4>We do not store your birthdate anywhere!</h4>
+        </div>
+      </footer>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
